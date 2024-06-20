@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExercicioMetAbstrato
+namespace ExercicioMetAbstrato.Entities
 {
-    enum Color
+    internal class Circle
     {
-        Black,
-        Blue,
-        Red
+        public double Radius { get; set; }
     }
 }
